@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://lh5.googleusercontent.com/ruCOmuTI3w-osus9mlHvNDLLf7r2j8ZVBP1ukvj2yyoIlYiMMPwvIoLiex87o7b-csw=w2400)
 
 ### Links
 
