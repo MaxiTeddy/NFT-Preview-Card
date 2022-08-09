@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Here is the code](https://github.com/MaxiTeddy/NFT-Preview-Card/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Here's the live site for the code](https://nft-card-mu.vercel.app/)
 
 ## My process
 
@@ -49,11 +49,50 @@ How to hover an image using an image
 There's what the code looks like, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="picture">
+            <img src="/images/image-equilibrium.jpg" class="image" alt="A NFT Stone">
+            <img src="/images/icon-view.svg" class="view" alt="View">
+            </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.image{
+        width: 300px;
+        opacity: 1;
+        display: block;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 10px;
+    }
+    
+    .picture{
+        width: 300px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .view{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+    .picture:hover{
+        background-color: hsl(178, 100%, 50%);
+        border-radius: 10px;
+    }
+    
+    .picture:hover .view {
+        opacity: 1;
+    }
+    
+    .picture:hover .image{
+        opacity: 0.3;
+    }
 }
 ```
 
