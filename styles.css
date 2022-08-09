@@ -135,7 +135,8 @@ body{
     .page{
         background-color: hsl(216, 50%, 16%);
         width: 300px;
-        height: auto;
+        min-height: auto;
+        max-height: 90vh
         margin: auto;
         color:  hsl(215, 51%, 70%);
         padding: 20px;
