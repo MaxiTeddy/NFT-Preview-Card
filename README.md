@@ -1,1 +1,77 @@
-# NFT-Preview-Card
+# Frontend Mentor - NFT preview card component solution
+
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Here is the code](https://github.com/MaxiTeddy/NFT-Preview-Card/)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+
+### What I learned
+
+How to hover an image using an image
+
+There's what the code looks like, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+
+### Continued development
+
+I would love to understand more about hovering and transform
+
+### Useful resources
+
+- [W3 School](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me with the hovering of the image
+
+
+## Author
+
+- Github - [@MaxiTeddy](https://github.com/MaxiTeddy)
+- Frontend Mentor - [@MaxiTeddy](https://www.frontendmentor.io/profile/MaxiTeddy)
+- Twitter - [@OgijiMax](https://www.twitter.com/OgijiMax)
+
+## Acknowledgments
+
+I would love to thank [@SaOgiji](https://github.com/SaOgiji) for his support, encouragement and guidance.
